@@ -1,12 +1,12 @@
-"""
+
 def hello(name = "World"):
     print(f"hello,{name}")
 
 
-hello();
+hello()
 name = input("What's your name? ")
 hello(name)
-"""
+
 
 """
 def main():
@@ -25,6 +25,8 @@ def main():
 
 def square(x):
     return x * x
+    ## return n ** 2
+    ## return pow(n ,2)
 
 main()
     

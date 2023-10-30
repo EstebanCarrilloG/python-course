@@ -20,7 +20,8 @@ y = float(input("What's y?"))
 
 z = round(x+y) 
 
-print(f"{z:,}")
+
+print(f"{z:,}") ## format string ex: 1,000
 """
 
 
@@ -28,7 +29,7 @@ print(f"{z:,}")
 x = float(input("What's x?"))
 y = float(input("What's y?"))
 
-z = round(x / y, 2) 
+z = round(x / y, 2) ## Output value with two digits ex: 1.22 
 
 print(z)
 """
@@ -38,7 +39,9 @@ y = float(input("What's y?"))
 
 z = x / y
 
-print(f"{z:.2f}")
+
+
+print(f"{z:.2f}") ## Output value with two digits ex: 1.22 
 
 
 
