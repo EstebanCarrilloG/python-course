@@ -8,6 +8,7 @@ In this section, you learned that:
 ```python 
 ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 0      1      2      3      4      5      6
+```
 
 *   And they have a **negative index** system as well:
     
