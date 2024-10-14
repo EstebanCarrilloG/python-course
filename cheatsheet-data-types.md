@@ -3,43 +3,49 @@
 In this section, you learned that:
 
 *   **Integers** are used to represent whole numbers:
-    
 
 ```pyton
-rank = 10eggs = 12people = 3
+rank = 10
+eggs = 12
+people = 3
 ```   
 
 *   **Floats** represent decimal numbers:
     
-
 ```pyton
-temperature = 10.2rainfall = 5.98elevation = 1031.88   
+temperature = 10.2
+rainfall = 5.98
+elevation = 1031.88   
 ```
 
 *   **Strings** represent text:
     
 
 ```pyton
-message = "Welcome to our online shop!"name = "John"serial = "R001991981SW"   
+message = "Welcome to our online shop!"
+name = "John"
+erial = "R001991981SW"   
 ```
 
 *   **Lists** represent arrays of values that may change during the course of the program:
     
 
 ```python
-members = ["Sim Soony", "Marry Roundknee", "Jack Corridor"]pixel_values = [252, 251, 251, 253, 250, 248, 247]
+members = ["Sim Soony", "Marry Roundknee", "Jack Corridor"]
+pixel_values = [252, 251, 251, 253, 250, 248, 247]
 ```
 
 *   **Dictionaries** represent pairs of keys and values:
     
-```
-python   phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}volcano_elevations = {"Glacier Peak": 3213.9, "Rainer": 4392.1}   `
+```python   
+phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+volcano_elevations = {"Glacier Peak": 3213.9, "Rainer": 4392.1}   `
 ```
 
 *   **Keys** of a dictionary can be extracted with:
     
-```
-python   phone_numbers.keys()
+```python  
+phone_numbers.keys()
 ```
 
 *   **Values** of a dictionary can be extracted with:
@@ -53,14 +59,17 @@ phone_numbers.values()
     
 
 ```python
-vowels = ('a', 'e', 'i', 'o', 'u')one_digits = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+vowels = ('a', 'e', 'i', 'o', 'u')
+one_digits = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 ```
 
 *   You can get a list of **attributes** of a data type has using:
     
 
 ```python
-dir(str)dir(list)dir(dict)
+dir(str)
+dir(list)
+dir(dict)
 ```   
 
 *   You can get a list of Python **builtin functions** using:
@@ -73,4 +82,8 @@ dir(__builtins__)
 *   You can get the **documentation** of a Python data type using:
     
 
-```python   help(str)help(str.replace)help(dict.values)   `
+```python
+help(str)
+help(str.replace)
+help(dict.values)
+```
