@@ -5,7 +5,9 @@ In this section, you learned that:
 *   Lists, strings, and tuples have a **positive index** system:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]   0      1      2      3      4      5      6   `
+```python 
+["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+0      1      2      3      4      5      6
 
 *   And they have a **negative index** system as well:
     
