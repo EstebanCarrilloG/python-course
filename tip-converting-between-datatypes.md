@@ -4,18 +4,34 @@ Sometimes you might need to convert between different data types in Python for o
 
 **From tuple to list:**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   >>> cool_tuple = (1, 2, 3)>>> cool_list = list(cool_tuple)>>> cool_list[1, 2, 3]   `
+```python   
+>>> cool_tuple = (1, 2, 3)
+>>> cool_list = list(cool_tuple)
+>>> cool_list[1, 2, 3]
+```
 
 **From list to tuple:**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   >>> cool_list = [1, 2, 3]>>> cool_tuple = tuple(cool_list)>>> cool_tuple(1, 2, 3)   `
+```python   
+>>> cool_list = [1, 2, 3]
+>>> cool_tuple = tuple(cool_list)
+>>> cool_tuple(1, 2, 3)
+```
 
 **From string to list:**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   >>> cool_string = "Hello">>> cool_list = list(cool_string)>>> cool_list['H', 'e', 'l', 'l', 'o']   `
+```python   
+>>> cool_string = "Hello"
+>>> cool_list = list(cool_string)
+>>> cool_list['H', 'e', 'l', 'l', 'o']
+```
 
 **From list to string:**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   >>> cool_list = ['H', 'e', 'l', 'l', 'o']>>> cool_string = str.join("", cool_list)>>> cool_string'Hello'   `
+```python   
+>>> cool_list = ['H', 'e', 'l', 'l', 'o']
+>>> cool_string = str.join("", cool_list)
+>>> cool_string'Hello'
+```
 
 As can be seen above, converting a list into a string is more complex. Here str() is not sufficient. We need str.join(). Try running the code above again, but this time using str.join("---", cool\_list) in the second line. You will understand how str.join() works.
