@@ -23,39 +23,50 @@ In this section, you learned that:
 
 ```python 
 days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-days[1:4] Output: ['Tue', 'Wed', 'Thu']
+days[1:4]
+Output: ['Tue', 'Wed', 'Thu']
 ```
 
 *   **First three items of a list**:
     
 
 ```python
-days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]days[:3]Output:['Mon', 'Tue', 'Wed']
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+days[:3]
+Output:['Mon', 'Tue', 'Wed']
 ```
 *   **Last three items of a list**:
     
 
 ```python 
-days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]days[-3:]Output: ['Fri', 'Sat', 'Sun']   `
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+days[-3:]
+Output: ['Fri', 'Sat', 'Sun']   `
 ```
 
 *   **Everything but the last**:
     
 
 ```python
-days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]days[:-1] Output: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']` 
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+days[:-1]
+Output: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']` 
 ```
 
 *   **Everything but the last two**:
     
 
 ```python
-days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]days[:-2] Output: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']` 
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+days[:-2]
+Output: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']` 
 ```
 
 *   A dictionary **value** can be accessed using its corresponding dictionary **key**:
     
 
 ```python
-phone_numbers = {"John":"+37682929928","Marry":"+423998200919"}phone_numbers["Marry"]Output: '+423998200919'
+phone_numbers = {"John":"+37682929928","Marry":"+423998200919"}
+phone_numbers["Marry"]
+Output: '+423998200919'
 ```
