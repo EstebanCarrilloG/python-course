@@ -6,8 +6,37 @@ dir(int) #show all the things you can do with an specific type.
 """
 dir(__builtins__) #shows a complete list of integrated functions that we can use.
 help(str.upper) #shows info about methods or properties 
+
 """
 Help on method_descriptor:
 upper(self, /)
     Return a copy of the string converted to uppercase.
 """
+
+## list slice
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b = a[3:8] #Get items from index 3 to index 7. "8 is not included."
+print(b) #Output: [4, 5, 6, 7, 8]
+
+b= a[:8] #Get items from index 0 to index 7. "8 is not included."
+print(b) #Output: [1, 2, 3, 4, 5, 6, 7, 8]
+
+b = a[3:] #Get items from index 3 to the end
+print(b) #Output: [4, 5, 6, 7, 8, 9, 10]
+
+#Negative index
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b = a[-3:] #Get items from index -3 to the end
+print(b) #Output: [8, 9, 10]
+
+b = a[:-3] #Get items from index 0 to -3
+print(b) #Output: [1, 2, 3, 4, 5, 6, 7]
+
+## End list slice
+
+## Accessing Item in Dictionaries
+
+a = {"a": 1, "b": 2, "c": 3}
+print(a["a"]) #Output: 1
+
+## End Accessing Item in Dictionaries
