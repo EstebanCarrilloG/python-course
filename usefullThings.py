@@ -40,3 +40,26 @@ a = {"a": 1, "b": 2, "c": 3}
 print(a["a"]) #Output: 1
 
 ## End Accessing Item in Dictionaries
+
+##String Formatting
+
+user_input = input("What's your name? ")
+
+message =f"hello, {user_input}"
+message = "Hello %s" % user_input
+
+name = input("What's your name? ")
+surname = input("What's your surname? ")
+
+message = f"hello, {name} {surname}"
+message = "Hello %s %s" % (name, surname)
+
+####
+
+name = "John"
+surname = "Smith"
+ 
+message = "Your name is {}. Your surname is {}".format(name, surname)
+print(message)
+
+##End String Formatting

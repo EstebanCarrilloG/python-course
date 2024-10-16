@@ -1,6 +1,8 @@
 #Ask for user name
 name = input("What is your name?").strip().title()
 """
+#Get length of string
+len(name) 
 #Remove whitespaces from string
 name = name.strip()
 #Capitalize first word only

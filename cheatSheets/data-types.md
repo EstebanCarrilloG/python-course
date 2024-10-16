@@ -4,7 +4,7 @@ In this section, you learned that:
 
 *   **Integers** are used to represent whole numbers:
 
-```pyton
+```python
 rank = 10
 eggs = 12
 people = 3
@@ -12,7 +12,7 @@ people = 3
 
 *   **Floats** represent decimal numbers:
     
-```pyton
+```python
 temperature = 10.2
 rainfall = 5.98
 elevation = 1031.88   
@@ -21,7 +21,7 @@ elevation = 1031.88
 *   **Strings** represent text:
     
 
-```pyton
+```python
 message = "Welcome to our online shop!"
 name = "John"
 erial = "R001991981SW"   
